@@ -3,10 +3,10 @@ import StyledBgBack from "../styles/StyledBgBack";
 function BgBack({ img }) {
   return (
     <>
-      <div>
-        <StyledBgBack img={img}>yo</StyledBgBack>
-        <p>hello</p>
-      </div>
+      <StyledBgBack img={img}>
+        <img src={img} alt="stuff" />
+        <div>0 0 0</div>
+      </StyledBgBack>
     </>
   );
 }

@@ -1,8 +1,21 @@
 import styled from "styled-components";
 
 const StyledBgBack = styled.div`
-  width: 100%;
-  background-image: url(${({ img }) => img});
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  div {
+    width: fit-content;
+    position: absolute;
+    top: 43%;
+    right: 15%;
+
+    color: white;
+    font-size: 100%;
+  }
 `;
 
 export default StyledBgBack;
