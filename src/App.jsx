@@ -1,5 +1,15 @@
+import StyledApp from "./StyledApp";
+
+import Top from "./components/Top";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <StyledApp>
+        <Top />
+      </StyledApp>
+    </>
+  );
 }
 
 export default App;
