@@ -1,3 +1,4 @@
+import Bottom from "./components/Bottom/Bottom";
 import Top from "./components/Top/Top";
 import StyledApp from "./StyledApp";
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <StyledApp>
         <Top />
+        <Bottom />
       </StyledApp>
     </>
   );

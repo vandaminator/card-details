@@ -5,8 +5,10 @@ const StyledBgFront = styled.div`
   top: 60%;
   left: 6%;
 
-  img {
+  .background {
     width: 100%;
+    filter: blur(2px);
+    filter: brightness(0.8);
   }
 
   .account-number {

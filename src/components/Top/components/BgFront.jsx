@@ -4,7 +4,7 @@ function BgFront({ img, cardLogo }) {
   return (
     <>
       <StyledBgFront img={img}>
-        <img src={img} alt="stuff" />
+        <img className="background" src={img} alt="stuff" />
         <img className="card-logo" src={cardLogo} alt="" />
         <div className="account-number">0000 0000 0000 0000</div>
         <div className="user-name">Jane Applessed</div>
