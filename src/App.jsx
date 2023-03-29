@@ -1,6 +1,5 @@
+import Top from "./components/Top/Top";
 import StyledApp from "./StyledApp";
-
-import Top from "./components/Top";
 
 function App() {
   return (
