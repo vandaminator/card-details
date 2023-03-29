@@ -9,14 +9,36 @@ const StyledBgFront = styled.div`
     width: 100%;
   }
 
-  div {
-    width: fit-content;
+  .account-number {
+    width: 100%;
     position: absolute;
-    top: 43%;
-    right: 12%;
-
+    bottom: 34%;
     color: white;
-    font-size: 100%;
+    font-size: 31px;
+    text-align: center;
+  }
+
+  .card-logo {
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    left: 5%;
+  }
+
+  .user-name {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+    font-size: medium;
+  }
+
+  .small-number {
+    position: absolute;
+    bottom: 10%;
+    left: 75%;
+    color: white;
+    font-size: medium;
   }
 `;
 
