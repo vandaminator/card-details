@@ -5,12 +5,14 @@ import bgCardFront from "./assets/bg-card-front.png";
 
 import StyledTop from "../styles/StyledTop";
 import BgBack from "./components/BgBack";
+import BgFront from "./components/BgFront";
 
 function Top() {
   return (
     <>
       <StyledTop img={bgMobile}>
         <BgBack img={bgCardBack} />
+        <BgFront img={bgCardFront} />
       </StyledTop>
     </>
   );

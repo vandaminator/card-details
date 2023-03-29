@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
-const StyledBgBack = styled.div`
-  position: relative;
+const StyledBgFront = styled.div`
+  position: absolute;
+  top: 60%;
+  left: 6%;
 
   img {
     width: 100%;
@@ -18,4 +20,4 @@ const StyledBgBack = styled.div`
   }
 `;
 
-export default StyledBgBack;
+export default StyledBgFront;

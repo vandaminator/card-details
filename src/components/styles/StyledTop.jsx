@@ -7,6 +7,8 @@ const StyledTop = styled.div`
   flex-direction: column;
   align-items: end;
 
+  position: relative;
+
   div {
     width: 80%;
   }
