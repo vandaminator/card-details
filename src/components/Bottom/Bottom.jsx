@@ -4,6 +4,9 @@ function Bottom(props) {
   const { accountNumber, userName, cardYears, cvc } = props;
   const { setAccountNumber, setUserName, setCardYears, setCvc } = props;
 
+  // this props changes the screen
+  const { setGotInfo } = props;
+
   const handleNameChange = ({ target }) => {
     const { value } = target;
     setUserName(value);
@@ -62,7 +65,7 @@ function Bottom(props) {
     const ErrorCvc = document.getElementById("error-cvc").classList;
 
     if (CardNumber && MM && YY && CVC) {
-      alert("am working");
+      setGotInfo(true);
     } else {
       if (!CardNumber) {
         ErrorCardNumber.remove("hidden");
