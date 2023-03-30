@@ -43,9 +43,35 @@ const StyledBgFront = styled.div`
     font-size: medium;
   }
 
+  @media (min-width: 720px) {
+    .account-number {
+      font-size: 50px;
+    }
+
+    .user-name {
+      font-size: 40px;
+    }
+
+    .small-number {
+      font-size: 50px;
+    }
+  }
+
   @media (min-width: 1024px) {
     top: 20%;
     left: 40%;
+
+    .account-number {
+      font-size: 16px;
+    }
+
+    .small-number {
+      font-size: 16px;
+    }
+
+    .user-name {
+      font-size: 16px;
+    }
   }
 `;
 

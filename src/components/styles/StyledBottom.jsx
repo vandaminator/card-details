@@ -50,7 +50,7 @@ const StyledBottom = styled.div`
 
   @media (min-width: 1024px) {
     margin-top: 100px;
-    margin-left: 60px;
+    margin-left: 115px;
     margin-bottom: 200px;
   }
 `;

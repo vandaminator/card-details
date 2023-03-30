@@ -14,12 +14,22 @@ const StyledBgBack = styled.div`
     right: 12%;
 
     color: white;
-    font-size: 100%;
+    font-size: 16px;
+  }
+
+  @media (min-width: 720px) {
+    div {
+      font-size: 50px;
+    }
   }
 
   @media (min-width: 1024px) {
     top: 50%;
     left: 40%;
+
+    div {
+      font-size: 16px;
+    }
   }
 `;
 
