@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/vandaminator/card-details](https://github.com/vandaminator/card-details)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://tiny-mochi-8f29bc.netlify.app/](https://tiny-mochi-8f29bc.netlify.app/)
 
 
 ### Built with
