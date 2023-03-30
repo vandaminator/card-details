@@ -4,10 +4,10 @@ import Top from "./components/Top/Top";
 import StyledApp from "./StyledApp";
 
 function App() {
-  const [accountNumber, setAccountNumber] = useState("0000 0000 0000 0000");
-  const [userName, setUserName] = useState("Jane AppleSeed");
-  const [cardYears, setCardYears] = useState({ mm: "00", yy: "00" });
-  const [cvc, setCvc] = useState("000");
+  const [accountNumber, setAccountNumber] = useState("");
+  const [userName, setUserName] = useState("");
+  const [cardYears, setCardYears] = useState({ mm: "", yy: "" });
+  const [cvc, setCvc] = useState("");
   return (
     <>
       <StyledApp>
@@ -23,10 +23,10 @@ function App() {
           cardYears={cardYears}
           cvc={cvc}
           // changers
-          setAccountNumber={accountNumber}
-          setUserName={userName}
-          setCardYears={cardYears}
-          setCvc={cvc}
+          setAccountNumber={setAccountNumber}
+          setUserName={setUserName}
+          setCardYears={setCardYears}
+          setCvc={setCvc}
         />
       </StyledApp>
     </>

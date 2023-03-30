@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledBottom = styled.div`
+const StyledBottom = styled.form`
   width: 80%;
   margin-top: 30vw;
   padding: 20px;
@@ -46,6 +46,16 @@ const StyledBottom = styled.div`
   .exp-date {
     width: 50%;
     margin: 0px 5px;
+  }
+
+  .error-msg {
+    color: red;
+    font-size: 14px;
+    margin: 5px 2px;
+  }
+
+  .hidden {
+    display: none;
   }
 
   @media (min-width: 1024px) {
