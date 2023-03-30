@@ -22,15 +22,25 @@ function Bottom() {
       <div className="two-inputs">
         <div className="input-info">
           <p className="info">EXP. DATE (MM/YY)</p>
-          <input className="input-field" placeholder="MM" type="text" />
-          <input className="input-field" placeholder="YY" type="text" />
+          <div className="exp-date-input">
+            <input
+              className="input-field exp-date"
+              placeholder="MM"
+              type="text"
+            />
+            <input
+              className="input-field exp-date"
+              placeholder="YY"
+              type="text"
+            />
+          </div>
         </div>
         <div className="input-info">
           <p className="info">CVC</p>
           <input className="input-field" placeholder="e.g. 123" type="text" />
         </div>
-        <button>Confirm</button>
       </div>
+      <div className="confirm-btn">Confirm</div>
     </StyledBottom>
   );
 }

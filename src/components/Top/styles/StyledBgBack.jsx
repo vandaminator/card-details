@@ -16,6 +16,11 @@ const StyledBgBack = styled.div`
     color: white;
     font-size: 100%;
   }
+
+  @media (min-width: 1024px) {
+    top: 50%;
+    left: 40%;
+  }
 `;
 
 export default StyledBgBack;

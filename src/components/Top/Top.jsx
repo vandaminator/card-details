@@ -13,7 +13,7 @@ import BgFront from "./components/BgFront";
 function Top() {
   return (
     <>
-      <StyledTop img={bgMobile}>
+      <StyledTop img={bgMobile} imgDesktop={bgDesktop}>
         <BgBack img={bgCardBack} />
         <BgFront img={bgCardFront} cardLogo={cardLogo} />
       </StyledTop>

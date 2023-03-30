@@ -12,6 +12,11 @@ const StyledTop = styled.div`
   div {
     width: 80%;
   }
+
+  @media (min-width: 1024px) {
+    background-image: url(${({ imgDesktop }) => imgDesktop});
+    width: 50%;
+  }
 `;
 
 export default StyledTop;

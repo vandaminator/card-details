@@ -42,6 +42,11 @@ const StyledBgFront = styled.div`
     color: white;
     font-size: medium;
   }
+
+  @media (min-width: 1024px) {
+    top: 20%;
+    left: 40%;
+  }
 `;
 
 export default StyledBgFront;
