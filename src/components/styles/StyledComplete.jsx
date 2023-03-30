@@ -29,6 +29,12 @@ const StyledComplete = styled.div`
     margin: 20px 0px;
     text-align: center;
   }
+
+  @media (min-width: 1024px) {
+    margin-top: 100px;
+    margin-left: 165px;
+    margin-bottom: 200px;
+  }
 `;
 
 export default StyledComplete;
