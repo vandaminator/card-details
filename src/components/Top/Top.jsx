@@ -10,12 +10,19 @@ import StyledTop from "../styles/StyledTop";
 import BgBack from "./components/BgBack";
 import BgFront from "./components/BgFront";
 
-function Top() {
+function Top(props) {
+  const { accountNumber, userName, cardYears, cvc } = props;
   return (
     <>
       <StyledTop img={bgMobile} imgDesktop={bgDesktop}>
-        <BgBack img={bgCardBack} />
-        <BgFront img={bgCardFront} cardLogo={cardLogo} />
+        <BgBack img={bgCardBack} cvc={cvc} />
+        <BgFront
+          img={bgCardFront}
+          cardLogo={cardLogo}
+          accountNumber={accountNumber}
+          userName={userName}
+          cardYears={cardYears}
+        />
       </StyledTop>
     </>
   );

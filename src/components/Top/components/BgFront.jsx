@@ -1,14 +1,18 @@
 import StyledBgFront from "../styles/StyledBgFront";
 
-function BgFront({ img, cardLogo }) {
+function BgFront(props) {
+  const { img, cardLogo } = props;
+  const { accountNumber, userName, cardYears } = props;
   return (
     <>
       <StyledBgFront img={img}>
         <img className="background" src={img} alt="stuff" />
         <img className="card-logo" src={cardLogo} alt="" />
-        <div className="account-number">0000 0000 0000 0000</div>
-        <div className="user-name">Jane Applessed</div>
-        <div className="small-number">00/00</div>
+        <div className="account-number">{accountNumber}</div>
+        <div className="user-name">{userName}</div>
+        <div className="small-number">
+          {cardYears.mm}/{cardYears.yy}
+        </div>
       </StyledBgFront>
     </>
   );
